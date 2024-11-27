@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Search | Academic Clan</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+   <link  rel="stylesheet" href="style.css">
+
+   
+</head>
+
+<body>
+    <header class="navbar">
+
+
+        <div class="left-icons">
+            <div class="menu-icon">&#9776;</div>
+            <div class="logo">Academic Clan</div>
+        </div>
+
+        <div class="right-icons">
+            <div class="search-icon">
+                <i class="fas fa-search"></i>
+            </div>
+            <button class="logout-button">Log Out</button>
+        </div>
+    </header>
+
+    <h1>Explore More Groups &#x1F973;</h1>
+
+    <input type="text" id="search-bar" placeholder="Filter groups..." onkeyup="filterGroups()">
+
+    <div class="grid" id="grid">
+        <div class="group-container" name="We Care">
+            <img src="https://via.placeholder.com/150" alt="We Care">
+            <h2>We Care</h2>
+            <p>We are tech-savvy people who are passionate about a safe environment.</p>
+        </div>
+
+        <div class="group-container" name="Immersive Thinkers">
+            <img src="https://via.placeholder.com/150" alt="Immersive Thinkers">
+            <h2>Immersive Thinkers</h2>
+            <p>We are a group of interesting and outgoing Zimbabweans, Burundians, and Ghanaians. Care to join us?</p>
+        </div>
+
+        <div class="group-container" name="Sharks">
+            <img src="https://via.placeholder.com/150" alt="Sharks">
+            <h2>Sharks</h2>
+            <p>"The World is your stage" is our motto. #We Code Change! &#x1F389;</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

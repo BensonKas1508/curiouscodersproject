@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | Academic Clan</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Welcome, Curious Coders!</h1>
+        <p id="head">Your Study Group Planner</p>
+    </header>
+
+    <nav>
+        <button>Home</button>
+        <button>Courses</button>
+        <button>Study Groups</button>
+        <button>Events</button>
+        <button>Create Event</button>
+        <button>Profile</button>
+    </nav>
+
+    <div class="container">
+        <section class="events-section left">
+            <h2>Upcoming Study Events</h2>
+            <div class="event-card">
+                <div class="event-info">
+                    <h3>Math Revision</h3>
+                    <p>📅 October 20, 2024 | 4:00 PM</p>
+                    <p>📍 Library Room 102</p>
+                    <p>🧑‍🤝‍🧑 5 participants</p>
+                </div>
+                <button class="join-btn">Join</button>
+            </div>
+
+            <div class="event-card">
+                <div class="event-info">
+                    <h3>Physics Problem Set</h3>
+                    <p>📅 October 25, 2024 | 2:00 PM</p>
+                    <p>📍 Science Lab A</p>
+                    <p>🧑‍🤝‍🧑 8 participants</p>
+                </div>
+                <button class="join-btn">Join</button>
+            </div>
+        </section>
+
+        <section class="create-event-section right">
+            <h2>Plan a New Study Event</h2>
+            <form id="event-form">
+                <input type="text" placeholder="Event Title" required> <br><br>
+                <input type="date" required> <br><br>
+                <input type="time" required> <br><br>
+                <input type="text" placeholder="Location" required> <br><br>
+                <button class="create-btn" type="submit">Create Event</button>
+            </form>
+        </section>
+
+        <section class="search-section right">
+            <h2>Find Events</h2>
+            <input type="text" placeholder="Search by topic or location">
+            <button class="search-btn">Search</button>
+        </section>
+    </div>
+
+
+    <script src="script2.js"></script>
+</body>
+</html>
